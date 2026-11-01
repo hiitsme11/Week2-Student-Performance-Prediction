@@ -1,0 +1,26 @@
+WEEK 2 – WINDOWS POWERSHELL
+1. Extract ZIP and open PowerShell in the project folder:
+   cd C:\path\to\Week2_Student_Performance_Prediction
+2. Create and activate environment:
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   (If activation is blocked: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass)
+   .\.venv\Scripts\Activate.ps1
+3. Install and run:
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   python train_models.py
+
+GITHUB
+1. Create an EMPTY repository under your friend's GitHub account named:
+   Week2-Student-Performance-Prediction
+   Do not initialize it with README/.gitignore/license.
+2. From the project folder:
+   git init
+   git add .
+   git commit -m "Complete Week 2 Student Performance Prediction"
+   git branch -M main
+   git remote add origin https://github.com/FRIEND-USERNAME/Week2-Student-Performance-Prediction.git
+   git push -u origin main
+Replace FRIEND-USERNAME with her GitHub username. If origin already exists, use:
+   git remote set-url origin https://github.com/FRIEND-USERNAME/Week2-Student-Performance-Prediction.git

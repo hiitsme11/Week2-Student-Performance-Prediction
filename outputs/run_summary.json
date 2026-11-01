@@ -1,0 +1,18 @@
+{
+  "rows": 600,
+  "data": "synthetic educational demonstration data",
+  "best_regression": {
+    "model": "Linear Regression",
+    "MAE": 4.9774608622965575,
+    "RMSE": 6.215627042489725,
+    "R2": 0.6797619525245133
+  },
+  "best_classification": {
+    "model": "Logistic Regression",
+    "Accuracy": 0.975,
+    "Precision": 0.9829059829059829,
+    "Recall": 0.9913793103448276,
+    "F1": 0.9871244635193133
+  },
+  "pass_threshold": 40
+}
